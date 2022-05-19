@@ -68,7 +68,13 @@ function checkAnswer(event) {
         result.textContent = 'Acertou!' // mostra se a pessoa acertou
     
       } else {
-        answer.style.display = 'initial' 
+        let correctAlternativeMusk = document.querySelector('.EMusk');
+        let correctAlternativeBezos = document.querySelector('.JBezos');
+        let correctAlternativeArnault = document.querySelector('.BArnault');
+        correctAlternativeMusk.classList.add( 'clicked' )
+        correctAlternativeBezos.classList.add( 'clicked' )
+        correctAlternativeArnault.classList.add( 'clicked' )
+        answer.style.display = 'initial'
         result.textContent = 'Errou!'
       }    
 }
