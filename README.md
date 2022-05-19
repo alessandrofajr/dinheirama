@@ -5,6 +5,8 @@ Roadmap:
 
 1 - Consertar variações do CSS no infográfico após a resposta do usuário
 
-2 - Fazer os cálculos de fortuna e tempo via JS
+2 - "Esconder" a resposta certa do código-fonte
+ 
+3 - Fazer os cálculos de fortuna e tempo via JS
 
-3 - Inlcuir um campo para que o usuário "converta" dinheiro em segundos/meses/anos
+4 - Inlcuir um campo para que o usuário "converta" dinheiro em segundos/meses/anos
